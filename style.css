@@ -1,0 +1,86 @@
+/* start variables */
+html {
+    scroll-behavior: smooth;
+}
+
+/* end variables */
+/* start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "outfit", sans-serif;
+    max-width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* mobile */
+@media (min-width: 768px) {
+    .container {
+        width: 375px;
+    }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+    .container {
+        width: 1440px;
+    }
+}
+
+/* end Global Rules */
+/* start the dsigen */
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 300px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+img {
+    border-radius: 12px;
+    width: 90%;
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #777;
+    margin: 20px;
+    font-size: 15px;
+}
+
+/* start the dsigen */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
